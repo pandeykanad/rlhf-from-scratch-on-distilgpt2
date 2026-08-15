@@ -17,8 +17,10 @@ from transformers import AutoModelForCausalLM
 def load_distilgpt2_model(model_name="sshleifer/tiny-gpt2"):
     return AutoModelForCausalLM.from_pretrained(model_name).eval()
 
-# Step 3 - set_pad_token_to_eos (not yet solved)
-# TODO: implement
+# Step 3 - set_pad_token_to_eos
+def set_pad_token_to_eos(tokenizer):
+    tokenizer.pad_token = tokenizer.eos_token
+    return tokenizer
 
 # Step 4 - generate_and_decode (not yet solved)
 # TODO: implement
