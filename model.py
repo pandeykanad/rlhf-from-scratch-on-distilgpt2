@@ -22,8 +22,12 @@ def set_pad_token_to_eos(tokenizer):
     tokenizer.pad_token = tokenizer.eos_token
     return tokenizer
 
-# Step 4 - generate_and_decode (not yet solved)
-# TODO: implement
+# Step 4 - generate_and_decode
+def generate_and_decode(model, tokenizer, prompt, max_new_tokens=8):
+    # TODO: tokenize prompt, generate continuation greedily, decode and return as a string
+    tok = tokenizer.encode(prompt, return_tensors="pt")
+    out = model.generate(tok, max_new_tokens=max_new_tokens)
+    return tokenizer.decode(out[0])
 
 # Step 5 - greedy_decode (not yet solved)
 # TODO: implement
