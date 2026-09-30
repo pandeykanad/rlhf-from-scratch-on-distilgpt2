@@ -14,67 +14,67 @@ python scaffold.py
 - [x] **2.** load_distilgpt2_model
 - [x] **3.** set_pad_token_to_eos
 - [x] **4.** generate_and_decode
-- [ ] **5.** greedy_decode
-- [ ] **6.** sample_with_temperature
-- [ ] **7.** top_k_filter
-- [ ] **8.** top_p_filter
-- [ ] **9.** build_synthetic_instruction_dataset
-- [ ] **10.** format_example
-- [ ] **11.** apply_template
-- [ ] **12.** tokenize_example
-- [ ] **13.** build_labels
-- [ ] **14.** mask_prompt_labels
-- [ ] **15.** pad_batch
-- [ ] **16.** make_attention_mask
-- [ ] **17.** collate_lm_batch
-- [ ] **18.** iterate_minibatches
-- [ ] **19.** train_val_split
-- [ ] **20.** shift_logits_and_labels
-- [ ] **21.** cross_entropy_loss
-- [ ] **22.** adamw_update
-- [ ] **23.** linear_warmup_schedule
-- [ ] **24.** clip_grad_norm
-- [ ] **25.** accumulate_gradients
-- [ ] **26.** sft_train_step
-- [ ] **27.** evaluate_loss
-- [ ] **28.** lora_delta
-- [ ] **29.** lora_linear_forward
-- [ ] **30.** init_lora_weights
-- [ ] **31.** freeze_base_params
-- [ ] **32.** count_trainable_params
-- [ ] **33.** merge_lora
-- [ ] **34.** build_synthetic_preference_dataset
-- [ ] **35.** format_preference
-- [ ] **36.** reward_head_forward
-- [ ] **37.** pairwise_reward_loss
-- [ ] **38.** reward_bce_loss
-- [ ] **39.** pairwise_accuracy
-- [ ] **40.** reward_train_step
-- [ ] **41.** sequence_logprob
-- [ ] **42.** per_token_kl
-- [ ] **43.** compute_returns
-- [ ] **44.** gae_advantages
-- [ ] **45.** policy_ratio
-- [ ] **46.** clipped_surrogate
-- [ ] **47.** value_function_loss
-- [ ] **48.** entropy_bonus
-- [ ] **49.** ppo_loss
-- [ ] **50.** kl_penalized_reward
-- [ ] **51.** batch_sequence_logprob
-- [ ] **52.** dpo_logratios
-- [ ] **53.** dpo_ref_logratios
-- [ ] **54.** dpo_loss
-- [ ] **55.** ipo_loss
-- [ ] **56.** kto_loss
-- [ ] **57.** orpo_loss
-- [ ] **58.** simpo_loss
-- [ ] **59.** build_eval_prompt_set
-- [ ] **60.** generate_completions
-- [ ] **61.** score_with_reward
-- [ ] **62.** win_rate
-- [ ] **63.** stream_tokens
-- [ ] **64.** apply_stop_tokens
-- [ ] **65.** chat
+- [x] **5.** greedy_decode
+- [x] **6.** sample_with_temperature
+- [x] **7.** top_k_filter
+- [x] **8.** top_p_filter
+- [x] **9.** build_synthetic_instruction_dataset
+- [x] **10.** format_example
+- [x] **11.** apply_template
+- [x] **12.** tokenize_example
+- [x] **13.** build_labels
+- [x] **14.** mask_prompt_labels
+- [x] **15.** pad_batch
+- [x] **16.** make_attention_mask
+- [x] **17.** collate_lm_batch
+- [x] **18.** iterate_minibatches
+- [x] **19.** train_val_split
+- [x] **20.** shift_logits_and_labels
+- [x] **21.** cross_entropy_loss
+- [x] **22.** adamw_update
+- [x] **23.** linear_warmup_schedule
+- [x] **24.** clip_grad_norm
+- [x] **25.** accumulate_gradients
+- [x] **26.** sft_train_step
+- [x] **27.** evaluate_loss
+- [x] **28.** lora_delta
+- [x] **29.** lora_linear_forward
+- [x] **30.** init_lora_weights
+- [x] **31.** freeze_base_params
+- [x] **32.** count_trainable_params
+- [x] **33.** merge_lora
+- [x] **34.** build_synthetic_preference_dataset
+- [x] **35.** format_preference
+- [x] **36.** reward_head_forward
+- [x] **37.** pairwise_reward_loss
+- [x] **38.** reward_bce_loss
+- [x] **39.** pairwise_accuracy
+- [x] **40.** reward_train_step
+- [x] **41.** sequence_logprob
+- [x] **42.** per_token_kl
+- [x] **43.** compute_returns
+- [x] **44.** gae_advantages
+- [x] **45.** policy_ratio
+- [x] **46.** clipped_surrogate
+- [x] **47.** value_function_loss
+- [x] **48.** entropy_bonus
+- [x] **49.** ppo_loss
+- [x] **50.** kl_penalized_reward
+- [x] **51.** batch_sequence_logprob
+- [x] **52.** dpo_logratios
+- [x] **53.** dpo_ref_logratios
+- [x] **54.** dpo_loss
+- [x] **55.** ipo_loss
+- [x] **56.** kto_loss
+- [x] **57.** orpo_loss
+- [x] **58.** simpo_loss
+- [x] **59.** build_eval_prompt_set
+- [x] **60.** generate_completions
+- [x] **61.** score_with_reward
+- [x] **62.** win_rate
+- [x] **63.** stream_tokens
+- [x] **64.** apply_stop_tokens
+- [x] **65.** chat
 
 ---
 
